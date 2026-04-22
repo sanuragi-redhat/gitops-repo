@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: nginx
+  name: sise
 spec:
   selector:
-    app: nginx
+    app: sise
   ports:
     - port: 80
-      targetPort: 8080
+      targetPort: 9876
