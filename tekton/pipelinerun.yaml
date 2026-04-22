@@ -2,7 +2,6 @@ apiVersion: tekton.dev/v1
 kind: PipelineRun
 metadata:
   generateName: nginx-pipelinerun-
-  namespace: pipeline
 spec:
   pipelineRef:
     name: nginx-pipeline
