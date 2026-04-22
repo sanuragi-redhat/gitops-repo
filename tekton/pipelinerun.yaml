@@ -1,7 +1,7 @@
 apiVersion: tekton.dev/v1
 kind: PipelineRun
 metadata:
-  name: nginx-pipelinerun
+  name: sise-pipelinerun
 spec:
   pipelineRef:
-    name: nginx-pipeline
+    name: app-sise-pipeline
