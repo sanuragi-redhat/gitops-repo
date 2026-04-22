@@ -1,0 +1,13 @@
+apiVersion: tekton.dev/v1
+kind: Pipeline
+metadata:
+  name: nginx-pipeline
+spec:
+  tasks:
+    - name: echo
+      taskSpec:
+        steps:
+          - name: run
+            image: alpine
+            script: |
+              echo "Building NGINX app..."
