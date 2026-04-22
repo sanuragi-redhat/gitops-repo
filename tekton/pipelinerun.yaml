@@ -5,4 +5,4 @@ metadata:
   namespace: pipeline
 spec:
   pipelineRef:
-    name: nginx-pipeline
+    name: app-sise-pipeline
