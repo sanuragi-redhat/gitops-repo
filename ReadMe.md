@@ -1,15 +1,15 @@
-GitHub repo
-   ↓
-Tekton Pipeline
-   ↓
-Build image (buildah)
-   ↓
-Push → OpenShift Internal Registry
-   ↓
-Deploy (oc apply)
+   GitHub repo
+      ↓
+   Tekton Pipeline
+      ↓
+   Build image (buildah)
+      ↓
+   Push → OpenShift Internal Registry
+      ↓
+   Deploy (oc apply)
 
 
-
+create tekton pipeline
 
    oc project pipeline
    
