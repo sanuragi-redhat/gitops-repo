@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: quay.io/nginxinc/nginx-unprivileged:stable-alpine
+          image: registry.access.redhat.com/ubi8/nginx-120
           ports:
             - containerPort: 8080
